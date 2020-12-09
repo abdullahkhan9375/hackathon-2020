@@ -1,0 +1,13 @@
+
+@import './General/Variables.css';
+@import './General/Typography.css';
+@import './Landing/Landing.css';
+@import './Home/Layout.css';
+@import './Home/Nav.css';
+@import './Home/Mainplate.css';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}

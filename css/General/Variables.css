@@ -1,0 +1,16 @@
+/* COLOR BLUES */
+
+:root {}
+
+[data-theme='Light Blue'] {
+    --main-col: #00A7E1;
+    --text-col: #131200;
+    --back-col: #C2EFFF;
+    --background-image: url('../.././assets/home/img/marek-piwnicki-NHUni99NTYc-unsplash.jpg');
+}
+
+[data-theme='Dark Blue'] {
+    --main-col: #0B1D51;
+    --text-col: #DDD1C7;
+    --background-image: url('../.././assets/home/img/zongnan-bao-gJHR0yPQQ2M-unsplash.jpg');
+}
