@@ -1,0 +1,1 @@
+const phrases = ["Good Ideas.", "Great Solutions.", "Unique Skills.", "Safe Spending.", "Sound Advice."]

@@ -7,10 +7,14 @@
     --text-col: #131200;
     --back-col: #C2EFFF;
     --background-image: url('../.././assets/home/img/marek-piwnicki-NHUni99NTYc-unsplash.jpg');
+    --white-col: #DDD1C7;
+    --black-col: #000;
 }
 
 [data-theme='Dark Blue'] {
     --main-col: #0B1D51;
     --text-col: #DDD1C7;
     --background-image: url('../.././assets/home/img/zongnan-bao-gJHR0yPQQ2M-unsplash.jpg');
+    --white-col: #000;
+    --black-col: #DDD1C7;
 }

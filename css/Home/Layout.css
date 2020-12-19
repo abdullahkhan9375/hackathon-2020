@@ -1,6 +1,10 @@
 @import '../General/Variables.css';
 .container--home {
-    background-color: var(--back-col);
+    overflow: hidden;
+    background-image: var(--background-image);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     display: flex;
     color: var(--text-col);
     flex-direction: column;
@@ -14,19 +18,18 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-end;
-    height: 5vh;
+    /* background-color: aqua; */
+    padding-top: 0.5em;
+    height: 4vh;
     width: 90%;
 }
 
 .container--home-main {
-    width: 90%;
-    height: 93vh;
-    box-shadow: 0px 10px 20px rgba(46, 54, 68, 0.4);
+    width: 100%;
+    height: 92vh;
+    background-color: transparent;
+    /* box-shadow: 0px 10px 20px rgba(46, 54, 68, 0.4); */
     border-radius: 2px;
-    background-image : var(--background-image);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     margin-top: 0.5em;
     padding: 1em 1em 1em 1em;
     display: flex;

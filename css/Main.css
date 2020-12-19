@@ -5,9 +5,13 @@
 @import './Home/Layout.css';
 @import './Home/Nav.css';
 @import './Home/Mainplate.css';
+@import './Card/Card.css';
+@import './Home/Popup.css';
+
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    transition: 0.5s ease-in-out;
 }

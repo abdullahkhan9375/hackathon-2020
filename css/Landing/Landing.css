@@ -35,7 +35,7 @@
 }
 
 .container--text h1 {
-    font-size: 2.2rem;
+    font-size: 2.6rem;
     font-weight: 500;
     color: white;
 }
@@ -50,19 +50,21 @@
     cursor: pointer;
     outline: none;
     font-weight: 500;
-    background-color: transparent;
     border-radius: 2px;
     border: solid 2px transparent;
     font-size: 0.75rem;
     color: white;
-    margin: -10em 0;
+    margin: 1em 0;
+    transform: translateX(0px);
     z-index: 1;
     width: 40%;
     height: 3.8vh;
-    /* background-clip: padding-box;
+    border: 0.5px solid white;
+    background-color: transparent;
+    background-clip: padding-box;
     box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
-    backdrop-filter: blur(1px); */
-    transition: 0.3s ease-in-out;
+    backdrop-filter: blur(10px);
+    transition: 0.1s ease-in-out;
 }
 
 .container button:focus {
@@ -105,4 +107,9 @@
     border-radius: 2px;
     outline: none;
     border: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
 }

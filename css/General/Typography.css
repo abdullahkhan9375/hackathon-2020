@@ -1,4 +1,11 @@
+@import './Variables.css';
+
 *{
     font-family: 'Libre Baskerville', sans-serif;
-    
 }
+
+
+h4{
+    color : var(--black-col);
+}
+
